@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from flask import Flask, render_template, request, make_response, url_for
 import datetime, feedparser, json, urllib2, urllib, os
 
