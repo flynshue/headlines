@@ -97,4 +97,4 @@ def dated_url_for(endpoint, **values):
 
 if __name__ == '__main__':
     app.config['TEMPLATES_AUTO_RELOAD'] = True
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0')
